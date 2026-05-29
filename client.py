@@ -76,7 +76,7 @@ class MainWindow(CTk):
 
         self.message_entry = CTkEntry(
             self.bottom_frame,
-            placeholder_text="Введіть повідомлення..."
+            placeholder_text="Введіть своє повідомлення..."
         )
 
         self.message_entry.pack(
